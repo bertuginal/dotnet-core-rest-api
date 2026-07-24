@@ -1,5 +1,5 @@
 <h2 align="center">.NET Core RESTful API 🚀</h2>
-<h3 align="center">TECHCAREER .NET CORE DOMINATİON BOOTCAMP</h3>
+<h3 align="center">Techcareer .Net Core Domination Bootcamp Sandbox</h3>
 
 A structured RESTful API template developed using C# and .NET Core, implementing Object-Relational Mapping (ORM) and relational database integration. Developed as part of the Techcareer .NET Core Domination Bootcamp.
 
