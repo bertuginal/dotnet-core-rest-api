@@ -1,37 +1,42 @@
-<h2 align="center">WEB API PROJECT - TECHCAREER .NET CORE DOMINATİON BOOTCAMP</h2>
+<h2 align="center">.NET Core RESTful API 🚀</h2>
+<h3 align="center">TECHCAREER .NET CORE DOMINATİON BOOTCAMP</h3>
 
-  <h4 align="center">.Net Core teknolojisi kullanılarak geliştirilmeye başlanan ve öğrenilen ilk Rest API web projesidir.</h4>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+A structured RESTful API template developed using C# and .NET Core, implementing Object-Relational Mapping (ORM) and relational database integration. Developed as part of the Techcareer .NET Core Domination Bootcamp.
 
 ---
 
-## :star: Neler öğrenildi?
-- ORM(Object Relational Mapping) aracılığı ile ilişkisel veri tabanı ve uygulama içerisinde kullandığımız modelleri/nesneleri birbirine bağlama tekniği öğrenildi. 
+## 🗂️ Technical Scope & Implementations
 
-- Her bir model için controller içerisinde CRUD(GET, POST, PUT ve DELETE) işlemleri öğrenildi.
+* **RESTful Architecture**: Developed structured API Controllers implementing full CRUD workflows (GET, POST, PUT, DELETE).
+* **ORM Integration**: Utilized Object-Relational Mapping principles to seamlessly map database schemas into C# domain models.
+* **Database Persistence**: Managed data access and migration layers with DbContext to establish secure communication with MSSQL Server.
 
-- DBContext aracılığı ile MSSQL veritabanı ile haberleşme öğrenildi.
+## 🛠️ Tech Stack
 
-## :warning: Hangi Teknolojiler Kullanıldı?
+* **Language**: C#
+* **Framework**: .NET Core (Web API)
+* **Database**: MSSQL (Microsoft SQL Server)
+* **Data Access**: Entity Framework Core (EF Core)
 
-- [.Net Core](https://dotnet.microsoft.com/en-us/)
-- [C#](https://learn.microsoft.com/en-us/dotnet/csharp/)
-- [MSSQL](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
+## 🚀 Quick Start
 
-## 🚀&nbsp; Aşağıdaki yönlendirmeler ile projemi indirebilirsiniz!
-1. CMD istemcisini aç!
-```
-WIN+R ile "Çalıştır" kutusunu açarak cmd yazıyoruz.
-```
-2. Repository indirmek için cmd istemcisine aşağıdaki kod ile clone işlemi!
-```
-$ git clone https://github.com/bertuginal/Etiya-Java-Spring-Boot.git
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com
+   ```
+2. Update the connection string in your configuration file to match your local MSSQL instance.
+3. Run migrations and update the database:
+   ```bash
+   dotnet ef database update
+   ```
+4. Start the development server:
+   ```bash
+   dotnet run --project dotnet-core-rest-api
+   ```
 
-## :clap: Bana ulaşabilirsiniz!
-Herhangi bir öneriniz veya sorunuz için bana e-posta göndermekten çekinmeyin! :email: bertuginal@yahoo.com
+## 📬 Contact
 
-:star: <b>Projemi beğendiyseniz bana destek olmak için yıldızlayabilir misiniz?</b> :star:
+* **Email**: bertuginal@yahoo.com
+* **LinkedIn**: [in/bertuginal](https://www.linkedin.com/in/bertuginal/)
 
 
